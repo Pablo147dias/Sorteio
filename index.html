@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sorteio</h1>
+        <form action="sorteio.php" method="post">
+            <label for="number">Escolha um numero entre:</label>
+            <input type="number" name="number" id="n1" required>
+            <label for="number">A</label>
+            <input type="number" name="number" id="n2" required>
+            <button type="submit" id="sortear">Sortear</button>
+        </form>
+        <div id="resultado">
+            <h2>Resultado</h2>
+            <p id="res"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
